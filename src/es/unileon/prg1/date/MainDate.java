@@ -6,7 +6,7 @@ public class MainDate {
 		Date today;
 		
 		try {
-			today = new Date(18,5,2023);
+			today = new Date(19,11,2022);
 			System.out.println(today.getDayOfWeek(6));
 		} catch (DateException e) {
 			System.out.println(e.getMessage());
